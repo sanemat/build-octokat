@@ -1,10 +1,12 @@
 {
+  "name": "@sanemat/build-octokat",
+  "version": "0.0.1",
+  "dependencies": {
+    "octokat": "^0.4.11"
+  },
   "devDependencies": {
     "browserify": "^11.0.1",
     "webpack": "^1.11.0"
-  },
-  "dependencies": {
-    "octokat": "^0.4.11"
   },
   "scripts": {
     "build:browser:browserify": "npm prune && npm dedupe && browserify --standalone buildOctokat ./example.js > build/example-browserify.js",

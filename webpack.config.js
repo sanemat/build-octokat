@@ -8,5 +8,8 @@ module.exports = {
     filename: '[name]-webpack.js',
     library: 'buildOctokat',
     libraryTarget: 'umd'
-  }
+  },
+  externals:[{
+    xmlhttprequest: '{XMLHttpRequest:XMLHttpRequest}'
+  }]
 };
