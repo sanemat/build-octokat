@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "webpack": "^1.11.0"
+  },
+  "dependencies": {
+    "octokat": "^0.4.11"
+  }
+}
