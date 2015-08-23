@@ -7,6 +7,7 @@
     "octokat": "^0.4.11"
   },
   "scripts": {
-    "build:browser:browserify": "npm prune && npm dedupe && browserify --standalone buildOctokat ./example.js > build/example-browserify.js"
+    "build:browser:browserify": "npm prune && npm dedupe && browserify --standalone buildOctokat ./example.js > build/example-browserify.js",
+    "build:browser:webpack": "npm prune && npm dedupe && webpack"
   }
 }
